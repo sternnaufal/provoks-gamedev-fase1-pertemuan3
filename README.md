@@ -20,8 +20,9 @@ project.godot          800x600, stretch canvas_items, texture filter Nearest
 Assets/
   player.png
   fruit.png
+  background.png
 Scenes/
-  main.tscn            Main → Player + Spawner (Timer)
+  main.tscn            Main → BackgroundLayer + Player + Spawner (Timer)
   Player.tscn          Area2D, layer 1
   Fruit.tscn           Area2D, layer 0, mask 1
 Scripts/
